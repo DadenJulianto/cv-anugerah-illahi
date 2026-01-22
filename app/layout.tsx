@@ -16,23 +16,6 @@ export const metadata: Metadata = {
   description:
     "Jelajahi destinasi impian dengan paket wisata eksklusif, unit travel modern, dan pengalaman tak terlupakan bersama Wanderlust Travel.",
   generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export const viewport: Viewport = {
@@ -42,7 +25,6 @@ export const viewport: Viewport = {
   ],
   width: "device-width",
   initialScale: 1,
-  userScalable: true,
 }
 
 export default function RootLayout({
@@ -53,12 +35,21 @@ export default function RootLayout({
   return (
     <html lang="id" suppressHydrationWarning>
       <body
-        className={`${poppins.className} font-sans antialiased bg-white dark:bg-slate-950 text-gray-900 dark:text-gray-50 transition-colors duration-300 relative`}
+        className={`
+          ${poppins.className}
+          font-sans antialiased
+          transition-colors duration-300
+        `}
       >
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+        >
           {children}
           <BottomNavbar />
         </ThemeProvider>
+
         <Analytics />
       </body>
     </html>
