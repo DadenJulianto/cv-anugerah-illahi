@@ -3,41 +3,75 @@ import { Button } from '@/components/ui/button'
 
 export default function Packages() {
   const packages = [
+  {
+  name: 'TRIP TO BROMO + GILI KETAPANG',
+  duration: '5 Hari 4 Malam',
+  price: 'Rp 470K',
+  image: '/gl.jpeg',
+
+  destinations: [
+    'Gn. Batok',
+    'Kawah Bromo',
+    'Pasir Berbisik',
+    'Sunrise Point',
+    'Bukit Teletubbies',
+    'Penanjakan',
+    'Pura Luhur Poten',
+    'Bukit Widodaren',
+    'Gili Ketapang'
+  ],
+  highlights: [
+    'Snorkeling',
+    'Dokumentasi',
+    'Merchandise',
+    'Tiket Wisata',
+    'Makan 1x',
+    'Karaoke',
+    'Kapal PP',
+    'Guide',
+    'Driver',
+    'Jeep',
+    'WiFi',
+    'P3K'
+  ],
+},
+
     {
-      name: 'Pesona Bali 5 Hari',
-      duration: '5 Hari 4 Malam',
-      price: 'Rp 3.5 Juta',
-      image: 'https://images.unsplash.com/photo-1537225228614-b3fb3d625cb0?w=500&h=400&fit=crop',
-      destinations: ['Ubud', 'Kuta', 'Sanur', 'Bedugul'],
-      highlights: [
-        'Tari Kecak di Tepi Pantai',
-        'Snorkling di Nusa Penida',
-        'Spa Tradisional Bali',
-      ],
-    },
-    {
-      name: 'Keajaiban Lombok 4 Hari',
+      name: 'Trip Bromo',
       duration: '4 Hari 3 Malam',
-      price: 'Rp 2.8 Juta',
-      image: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500&h=400&fit=crop',
-      destinations: ['Senggigi', 'Gili Trawangan', 'Kuta'],
+      price: 'Rp 350K',
+      image: '/bromogiliketapang.jpeg',
+      destinations: ['Savana', 'Pura Luhur Poten', 'Bukit Widodaren', 'Gunung Botok', 'Kawah Bromo', 'Pasir Berbisik', 'Sunrise Point', ],
       highlights: [
-        'Snorkling 3 Gili',
-        'Pantai Pasir Putih',
-        'Sunset di Tebing',
+        'Dokumentasi',
+        'Merchandise',
+        'Tiket Wisata',
+        'Air Mineral',
+        'Guide',
+        'Driver',
+        'Jeep',
+        'Wifi',
+        'P3K'
       ],
       featured: true,
     },
     {
-      name: 'Indonesia Timur 7 Hari',
+      name: 'Trip Bromo + Tumpak Sewu',
       duration: '7 Hari 6 Malam',
-      price: 'Rp 5.2 Juta',
-      image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=400&fit=crop',
-      destinations: ['Komodo', 'Flores', 'Sumba'],
+      price: 'Rp 400K',
+      image: '/ts.jpeg'
+,
+      destinations: ['Savana', 'Pura Luhur Poten', 'Bukit Widodaren', 'Gunung Botok', 'Kawah Bromo', 'Pasir Berbisik', 'Sunrise Point', ' Tumpak Sewu'],
       highlights: [
-        'Pulau Padar',
-        'Savana Sumba',
-        'Budaya Lokal',
+        'Dokumentasi',
+        'Merchandise',
+        'Tiket Wisata',
+        'Air Mineral',
+        'Guide',
+        'Driver',
+        'Jeep',
+        'Wifi',
+        'P3K'
       ],
       premium: true,
     },

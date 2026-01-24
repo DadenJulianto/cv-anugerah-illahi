@@ -4,19 +4,19 @@ import { Button } from '@/components/ui/button'
 export default function Units() {
   const units = [
     {
-      name: 'Kelas Ekonomi',
+      name: 'Berbagai Mobil',
       icon: '🚌',
-      price: 'Dari Rp 500K',
-      capacity: '40 penumpang',
+      price: 'Sesuai Destinasi',
+      capacity: '7 penumpang',
       features: ['AC standar', 'Kursi empuk', 'Stop rutin', 'Tiket asuransi'],
       image:
-        'https://images.unsplash.com/photo-1570125909519-0a90ed8a7b88?w=500&h=400&fit=crop',
+        '/mobil.png',
     },
     {
-      name: 'Kelas Bisnis',
+      name: 'Hiace Premio',
       icon: '🚎',
-      price: 'Dari Rp 1.2J',
-      capacity: '30 penumpang',
+      price: 'Sesuai Destinasi',
+      capacity: '14 penumpang',
       featured: true,
       features: [
         'AC premium',
@@ -26,13 +26,13 @@ export default function Units() {
         'Tiket asuransi',
       ],
       image:
-        'https://images.unsplash.com/photo-1464822759023-fed622ff3c3c?w=500&h=400&fit=crop',
+        '/hp.png',
     },
     {
-      name: 'Kelas Eksekutif',
-      icon: '✈️',
-      price: 'Dari Rp 3J',
-      capacity: '15 penumpang',
+      name: 'Isuzu Elf Long',
+      icon: '🚎',
+      price: 'Sesuai Destinasi',
+      capacity: '19 penumpang',
       features: [
         'AC eksklusif',
         'Kursi VIP',
@@ -41,7 +41,22 @@ export default function Units() {
         'Asuransi + Roadworthiness',
       ],
       image:
-        'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=400&fit=crop',
+        '/elf.png',
+    },
+     {
+      name: 'Bus Pariwisata',
+      icon: '🚎',
+      price: 'Sesuai Destinasi',
+      capacity: '60 penumpang',
+      features: [
+        'AC eksklusif',
+        'Kursi VIP',
+        'Wifi premium',
+        'Catering lengkap',
+        'Asuransi + Roadworthiness',
+      ],
+      image:
+        '/bus.png',
     },
   ]
 

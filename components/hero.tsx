@@ -67,7 +67,7 @@ export default function Hero() {
                 font-extrabold leading-tight
                 text-slate-900 dark:text-white
               ">
-                Jelajahi Dunia dengan{' '}
+                Jelajahi Jawa Timur dengan{' '}
                 <span className="
                   text-transparent bg-clip-text
                   bg-gradient-to-r
@@ -75,7 +75,7 @@ export default function Hero() {
                   dark:from-amber-400 dark:via-yellow-400 dark:to-amber-500
                   animate-gradient-shift
                 ">
-                  Wanderlust
+                  17 Trans
                 </span>
               </h1>
 

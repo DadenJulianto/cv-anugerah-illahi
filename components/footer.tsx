@@ -114,8 +114,8 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-[#FFD65C] mt-0.5" />
                 <div>
-                  <p>+62 812-3456-7890</p>
-                  <p>+62 21-1234-5678</p>
+                  <p>+62 823-3038-4637</p>
+                  <p>+62 857-3344-1457</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -125,8 +125,8 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#FFD65C] mt-0.5" />
                 <p>
-                  Jl. Merdeka No. 123<br />
-                  Jakarta, Indonesia 12345
+                  Perumahan Grand Semanggi<br />
+                  Residence C1-40 Surabaya
                 </p>
               </li>
             </ul>

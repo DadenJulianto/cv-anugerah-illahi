@@ -16,14 +16,14 @@ export default function Gallery() {
       title: 'Pantai Eksotis Maldives',
     },
     {
-      src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=400&fit=crop',
+      src: '/gl1.jpeg',
       category: 'pegunungan',
-      title: 'Gunung Fuji, Jepang',
+      title: 'Bromo, Lumajang',
     },
     {
-      src: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&h=400&fit=crop',
+      src: '/gl2.jpeg',
       category: 'budaya',
-      title: 'Candi Borobudur, Yogyakarta',
+      title: 'Pasir Berbisik, Malang',
     },
     {
       src: 'https://images.unsplash.com/photo-1464207687429-7505649dae38?w=500&h=400&fit=crop',
