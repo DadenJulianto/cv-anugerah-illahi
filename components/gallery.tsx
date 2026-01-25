@@ -11,9 +11,9 @@ export default function Gallery() {
 
   const galleryImages = [
     {
-      src: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&h=400&fit=crop',
-      category: 'pantai',
-      title: 'Pantai Eksotis Maldives',
+      src: 'b1.jpeg',
+      category: 'pegunungan',
+      title: 'Bromo, Lumajang',
     },
     {
       src: '/gl1.jpeg',
@@ -25,20 +25,51 @@ export default function Gallery() {
       category: 'budaya',
       title: 'Pasir Berbisik, Malang',
     },
-    {
-      src: 'https://images.unsplash.com/photo-1464207687429-7505649dae38?w=500&h=400&fit=crop',
-      category: 'budaya',
-      title: 'Candi Prambanan',
-    },
+    // {
+    //   src: 'l1.jpeg',
+    //   category: 'pantai',
+    //   title: 'Candi Prambanan',
+    // },
+    
     {
       src: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500&h=400&fit=crop',
-      category: 'pantai',
-      title: 'Gili Trawangan, Lombok',
+      category: 'pegunungan',
+      title: 'Bromo, Lumajang',
     },
     {
-      src: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=400&fit=crop',
+      src: '/l2.jpeg',
+      category: 'pantai',
+      title: 'Gili Ketapang',
+    },
+    {
+      src: '/l3.jpeg',
+      category: 'pantai',
+      title: 'Gili Ketapang',
+    },
+    {
+      src: '/l4.jpeg',
+      category: 'pantai',
+      title: 'Gili Ketapang',
+    },
+    {
+      src: '/rs2.jpeg',
       category: 'petualangan',
-      title: 'Trekking di Komodo',
+      title: 'Gili Ketapang',
+    },
+    {
+      src: '/ps.jpeg',
+      category: 'petualangan',
+      title: 'Family',
+    },
+    {
+      src: '/rs2.jpeg',
+      category: 'petualangan',
+      title: 'Rest Area',
+    },
+    {
+      src: '/at.jpeg',
+      category: 'petualangan',
+      title: 'Tumpak Sewu',
     },
   ]
 

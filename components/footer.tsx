@@ -1,9 +1,27 @@
 'use client'
 
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react'
+import { Facebook, Instagram, Music2, Mail, Phone, MapPin } from 'lucide-react'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+
+  const socialLinks = [
+    {
+      icon: Facebook,
+      href: 'https://www.facebook.com/username_kamu',
+      label: 'Facebook',
+    },
+    {
+      icon: Instagram,
+      href: 'https://www.instagram.com/17trans_?igsh=MTZ1djN4dnFpZGlzeQ%3D%3D',
+      label: 'Instagram',
+    },
+    {
+      icon: Music2, // TikTok (pengganti icon)
+      href: 'https://www.tiktok.com/@17trans_?_r=1&_t=ZS-93McWj6WYiH',
+      label: 'TikTok',
+    },
+  ]
 
   return (
     <footer className="bg-gradient-to-b from-[#1A1405] to-[#0F0C02] text-gray-300 transition-colors duration-500">
@@ -23,23 +41,26 @@ export default function Footer() {
                   transition-transform hover:scale-110
                 "
               >
-                <span className="text-[#8A5A00] font-bold">W</span>
+                <span className="text-[#8A5A00] font-bold">17</span>
               </div>
               <span className="text-xl font-bold text-[#FFD65C]">
-                Wanderlust
+                Trans
               </span>
             </div>
 
             <p className="text-sm leading-relaxed text-gray-400">
               Menciptakan pengalaman perjalanan yang tak terlupakan bagi jutaan
-              pelanggan di seluruh dunia sejak 2003.
+              pelanggan di seluruh Jawa Timur sejak 2024
             </p>
 
             <div className="flex gap-3">
-              {[Facebook, Instagram, Twitter].map((Icon, i) => (
+              {socialLinks.map(({ icon: Icon, href, label }) => (
                 <a
-                  key={i}
-                  href="#"
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
                   className="
                     w-10 h-10 rounded-lg
                     bg-[#2A2108]
@@ -48,6 +69,7 @@ export default function Footer() {
                     text-[#FFD65C]
                     hover:bg-[#FFD65C]
                     hover:text-[#8A5A00]
+                    hover:scale-110
                     transition-all duration-300
                   "
                 >
@@ -120,7 +142,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-[#FFD65C] mt-0.5" />
-                <p>info@wanderlust.travel</p>
+                <p>17transportasi@gmail.com</p>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#FFD65C] mt-0.5" />
@@ -141,7 +163,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
           <p>
-            &copy; {currentYear} Wanderlust Travel. Semua hak dilindungi.
+            &copy; {currentYear} 17 Trans Travel. Semua hak dilindungi.
           </p>
           <div className="flex gap-6">
             {['Kebijakan Privasi', 'Syarat & Ketentuan', 'FAQ'].map(item => (

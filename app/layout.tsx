@@ -12,7 +12,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Wanderlust Travel | Petualangan Menakjubkan Menanti Anda",
+  title: "17 Trans | Petualangan Di Jawa Timur",
   description:
     "Jelajahi destinasi impian dengan paket wisata eksklusif, unit travel modern, dan pengalaman tak terlupakan bersama Wanderlust Travel.",
   generator: "v0.app",

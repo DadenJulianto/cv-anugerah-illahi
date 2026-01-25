@@ -9,8 +9,7 @@ export default function Units() {
       price: 'Sesuai Destinasi',
       capacity: '7 penumpang',
       features: ['AC standar', 'Kursi empuk', 'Stop rutin', 'Tiket asuransi'],
-      image:
-        '/mobil.png',
+      image: '/mobil.png',
     },
     {
       name: 'Hiace Premio',
@@ -25,8 +24,7 @@ export default function Units() {
         'Snack & minuman',
         'Tiket asuransi',
       ],
-      image:
-        '/hp.png',
+      image: '/hp.png',
     },
     {
       name: 'Isuzu Elf Long',
@@ -40,10 +38,9 @@ export default function Units() {
         'Catering lengkap',
         'Asuransi + Roadworthiness',
       ],
-      image:
-        '/elf.png',
+      image: '/elf.png',
     },
-     {
+    {
       name: 'Bus Pariwisata',
       icon: '🚎',
       price: 'Sesuai Destinasi',
@@ -55,8 +52,7 @@ export default function Units() {
         'Catering lengkap',
         'Asuransi + Roadworthiness',
       ],
-      image:
-        '/bus.png',
+      image: '/bus.png',
     },
   ]
 
@@ -66,10 +62,8 @@ export default function Units() {
       className="
         py-20 md:py-32
         transition-colors duration-500
-
         bg-gradient-to-br
         from-[#FFF6D5] via-[#FFE9A6] to-[#FFD65C]
-
         dark:from-[#1A1405]
         dark:via-[#2A2108]
         dark:to-[#0F0C02]
@@ -181,20 +175,28 @@ export default function Units() {
                   ))}
                 </div>
 
-                {/* BUTTON */}
-                <Button
-                  className="
-                    w-full py-3 rounded-lg
-                    font-semibold
-                    text-[#8A5A00] dark:text-[#FFD65C]
-                    bg-[#FFD65C] dark:bg-[#2A2108]
-                    hover:bg-[#FFC93C] dark:hover:bg-[#3A2F10]
-                    transition-all duration-300
-                    hover:shadow-lg hover:scale-105
-                  "
+                {/* BUTTON → WHATSAPP */}
+                <a
+                  href={`https://wa.me/6285733441457?text=${encodeURIComponent(
+                    `Halo admin, saya tertarik dan ingin memesan unit ${unit.name}. Mohon info detailnya ya.`
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Pesan Sekarang
-                </Button>
+                  <Button
+                    className="
+                      w-full py-3 rounded-lg
+                      font-semibold
+                      text-[#8A5A00] dark:text-[#FFD65C]
+                      bg-[#FFD65C] dark:bg-[#2A2108]
+                      hover:bg-[#FFC93C] dark:hover:bg-[#3A2F10]
+                      transition-all duration-300
+                      hover:shadow-lg hover:scale-105
+                    "
+                  >
+                    Pesan Sekarang
+                  </Button>
+                </a>
               </div>
             </div>
           ))}
