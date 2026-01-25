@@ -2,7 +2,7 @@ import { MapPin, Clock, CheckCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export default function Packages() {
-  const whatsappNumber = '6282330384637'
+  const whatsappNumber = '6285733441457'
 
   const packages = [
     {
